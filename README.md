@@ -1,139 +1,144 @@
-<!-- Animated Wave Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Mridul%20Singhal&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
-
-<!-- Typing Animation -->
+<!-- Header -->
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%91%8B+Welcome+to+my+Digital+Space;%F0%9F%9A%80+Full+Stack+Developer;%F0%9F%8E%A8+UI%2FUX+Enthusiast;%F0%9F%92%A1+Building+the+Future" alt="Typing SVG" />
-  </a>
-</div>
-
-<!-- Profile Views Badge -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=singhalmridul&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/singhalmridul?style=for-the-badge&color=blue&labelColor=000000" alt="Followers"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b27&height=200&section=header&text=Mridul%20Singhal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Open%20Source%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
 </div>
 
 <br/>
 
-<!-- About Me Section - Terminal Style -->
-<div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHp6Y2t2ZGp5cHg0dXd6YnVxcW5yZHJseWl5NXV2OHVzZHUyYmx6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="300" align="right"/>
-</div>
+<!-- Typing SVG -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+Profile!;I+build+things+for+the+web;Always+learning%2C+always+growing" alt="Typing SVG" />
+</p>
+
+<br/>
+
+<!-- Badges -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=singhalmridul&style=flat-square&color=58a6ff" alt="Profile Views"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/singhalmridul?label=Followers&style=flat-square&color=58a6ff" alt="Followers"/>
+</p>
+
+<br/>
+
+---
+
+## 👨‍💻 About Me
 
 ```javascript
 const mridul = {
-    pronouns: "he" | "him",
-    code: ["JavaScript", "TypeScript", "Python", "Go"],
-    askMeAbout: ["web dev", "app dev", "cloud", "UI/UX"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Next.js", "Vue"],
-            css: ["TailwindCSS", "SASS", "Styled Components"]
-        },
-        backEnd: {
-            js: ["Node", "Express", "NestJS"],
-            python: ["FastAPI", "Django"],
-        },
-        databases: ["MongoDB", "PostgreSQL", "Redis", "Firebase"],
-        devOps: ["Docker", "Kubernetes", "AWS", "GCP"],
-        tools: ["Git", "GitHub Actions", "Figma", "Postman"]
-    },
-    currentFocus: "Building scalable web applications",
-    funFact: "I debug with console.log and I'm not ashamed"
+  role: "Full Stack Developer",
+  location: "India 🇮🇳",
+  currentlyLearning: ["System Design", "AI/ML", "Cloud Architecture"],
+  askMeAbout: ["Web Dev", "React", "Node.js", "Cloud"],
+  funFact: "I code better with coffee ☕"
 };
 ```
 
-<br clear="both"/>
+<br/>
 
 ---
 
-<!-- GitHub Trophies -->
-<h2 align="center">🏆 GitHub Trophies</h2>
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=singhalmridul&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
-</div>
+## 🛠️ Tech Stack
 
----
+### Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+</p>
 
-<!-- Tech Stack -->
-<h2 align="center">⚡ Tech Stack</h2>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,go,rust,cpp&theme=dark" alt="Languages"/><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,sass,html,css&theme=dark" alt="Frontend"/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,django,graphql&theme=dark" alt="Backend"/><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,supabase&theme=dark" alt="Databases"/><br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,netlify&theme=dark" alt="DevOps"/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux&theme=dark" alt="Tools"/>
-</div>
+### Frontend
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+</p>
 
----
+### Backend & Database
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+</p>
 
-<!-- GitHub Stats -->
-<h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=singhalmridul&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ffd700&icon_color=ffd700&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=singhalmridul&theme=radical&hide_border=true&background=0d1117&ring=ffd700&fire=ffd700&currStreakLabel=ffd700" alt="Streak Stats"/>
-</div>
-
-<div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=singhalmridul&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=ffd700&text_color=c9d1d9" alt="Top Languages"/>
-</div>
-
----
-
-<!-- Contribution Graph -->
-<h2 align="center">📈 Contribution Graph</h2>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=singhalmridul&bg_color=0d1117&color=ffd700&line=ffd700&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
-</div>
-
----
-
-<!-- Snake Animation -->
-<h2 align="center">🐍 Contribution Snake</h2>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg"/>
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg"/>
-  </picture>
-</div>
-
----
-
-<!-- Quote -->
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote"/>
-</div>
-
----
-
-<!-- Connect Section -->
-<h2 align="center">🤝 Let's Connect</h2>
-<div align="center">
-  <a href="https://linkedin.com/in/singhalmridul">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://twitter.com/singhalmridul">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="mailto:singhalmridul@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/singhalmridul">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
+### DevOps & Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
 
 <br/>
 
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+---
 
-<!-- Signature -->
-<div align="center">
-  <sub>⭐ Star my repositories if you find them interesting! ⭐</sub>
-  <br/>
-  <sub>Made with ❤️ and ☕</sub>
-</div>
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=singhalmridul&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=singhalmridul&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=singhalmridul&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" width="40%"/>
+</p>
+
+<br/>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=singhalmridul&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Activity Graph" width="100%"/>
+</p>
+
+<br/>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=singhalmridul&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="Trophies"/>
+</p>
+
+<br/>
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/singhalmridul">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/singhalmridul">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:singhalmridul@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+<br/>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b27&height=100&section=footer" width="100%"/>
+</p>
+
+<p align="center">
+  <i>⭐ From <a href="https://github.com/singhalmridul">singhalmridul</a> with ❤️</i>
+</p>
