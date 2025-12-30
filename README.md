@@ -148,8 +148,14 @@ const mridul = {
 ## 🌟 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/singhalmridul/singhalmridul">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=singhalmridul&repo=singhalmridul&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Profile Repo"/>
+  <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=singhalmridul&repo=ai-bug-bounty-hunter&theme=github_dark&hide_border=true&bg_color=0d1117" alt="AI Bug Bounty Hunter"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/singhalmridul/flux">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=singhalmridul&repo=flux&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Flux"/>
   </a>
 </p>
 
@@ -160,15 +166,15 @@ const mridul = {
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/singhalmridul">
+  <a href="https://www.linkedin.com/in/mridulsinghal/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://twitter.com/singhalmridul">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  <a href="https://x.com/MridulSinghal16">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="mailto:singhalmridul@gmail.com">
+  <a href="mailto:mridulsinghal11@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
