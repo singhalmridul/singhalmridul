@@ -135,10 +135,10 @@ const mridul = {
 
 ---
 
-## 🏆 Achievements
+## ✨ Random Dev Quote
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=singhalmridul&theme=onestar&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="Trophies"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20create%20it.&author=Peter%20Drucker" alt="Quote"/>
 </p>
 
 <br/>
