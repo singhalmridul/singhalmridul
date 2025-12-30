@@ -154,8 +154,8 @@ const mridul = {
 </p>
 
 <p align="center">
-  <a href="https://github.com/singhalmridul/flux">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=singhalmridul&repo=flux&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Flux"/>
+  <a href="https://github.com/singhalmridul/masai">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=singhalmridul&repo=masai&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Masai"/>
   </a>
 </p>
 
