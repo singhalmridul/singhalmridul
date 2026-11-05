@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0e1322" />
+      <stop offset="100%" stop-color="#050810" />
+    </linearGradient>
+
+    <!-- Border Gradients -->
+    <linearGradient id="statsBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#7928CA" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF0080" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="statsBorder2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF0080" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#7928CA" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Language Bar Gradients -->
+    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178C6" />
+      <stop offset="100%" stop-color="#00F2FE" />
+    </linearGradient>
+
+    <linearGradient id="rustGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DEA584" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <filter id="glowStats" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseLedStats {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    @keyframes barAnimTS { 0% { width: 0px; } 100% { width: 230px; } }
+    @keyframes barAnimRust { 0% { width: 0px; } 100% { width: 88px; } }
+    @keyframes barAnimPy { 0% { width: 0px; } 100% { width: 48px; } }
+    @keyframes barAnimGo { 0% { width: 0px; } 100% { width: 34px; } }
+
+    .pulse-dot-stats {
+      animation: pulseLedStats 2s infinite ease-in-out;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .bar-ts { animation: barAnimTS 1.8s ease-out forwards; }
+    .bar-rust { animation: barAnimRust 1.8s ease-out forwards; }
+    .bar-py { animation: barAnimPy 1.8s ease-out forwards; }
+    .bar-go { animation: barAnimGo 1.8s ease-out forwards; }
+
+    .card-title {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    .label-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #E2E8F0;
+    }
+    .val-mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .sub-mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 10px;
+      fill: #64748B;
+    }
+  </style>
+
+  <!-- ==================== LEFT CARD: PUBLIC GITHUB METRICS ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="485" height="240" rx="14" fill="url(#statsBg)" />
+    <rect x="1" y="1" width="483" height="238" rx="13" fill="none" stroke="url(#statsBorder1)" stroke-width="1.2" />
+
+    <!-- Top Header -->
+    <path d="M 1 38 L 484 38" stroke="#1e293b" stroke-width="1" />
+    <circle cx="25" cy="22" r="4.5" fill="#00F2FE" class="pulse-dot-stats" filter="url(#glowStats)" />
+    <text x="38" y="26" fill="#00F2FE" class="card-title">PUBLIC REPOSITORY METRICS</text>
+    <text x="365" y="26" fill="#10B981" class="sub-mono">SCOPE: PUBLIC</text>
+
+    <!-- Metric 1: Total Stars Earned -->
+    <g transform="translate(30, 68)">
+      <circle cx="12" cy="12" r="12" fill="#171e2e" stroke="#0284c7" stroke-width="1" />
+      <text x="7" y="16" fill="#FBBF24" font-size="12">★</text>
+      <text x="35" y="10" class="label-sans">Total Stars Earned</text>
+      <text x="35" y="24" class="sub-mono">Across public repositories</text>
+      <text x="420" y="17" text-anchor="end" fill="#FBBF24" class="val-mono">77</text>
+    </g>
+
+    <!-- Metric 2: Public Repositories -->
+    <g transform="translate(30, 118)">
+      <circle cx="12" cy="12" r="12" fill="#1c1328" stroke="#7c3aed" stroke-width="1" />
+      <text x="7" y="16" fill="#C084FC" font-size="12">❖</text>
+      <text x="35" y="10" class="label-sans">Public Repositories</text>
+      <text x="35" y="24" class="sub-mono">Open source codebases</text>
+      <text x="420" y="17" text-anchor="end" fill="#C084FC" class="val-mono">8</text>
+    </g>
+
+    <!-- Metric 3: Followers & Community -->
+    <g transform="translate(30, 168)">
+      <circle cx="12" cy="12" r="12" fill="#240c1e" stroke="#db2777" stroke-width="1" />
+      <text x="6" y="16" fill="#F472B6" font-size="12">👥</text>
+      <text x="35" y="10" class="label-sans">Followers &amp; Network</text>
+      <text x="35" y="24" class="sub-mono">Collaborating engineers</text>
+      <text x="420" y="17" text-anchor="end" fill="#F472B6" class="val-mono">34</text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <path d="M 1 204 L 484 204" stroke="#1e293b" stroke-width="1" />
+    <text x="25" y="224" fill="#64748B" class="sub-mono">● PRIVACY: <tspan fill="#38BDF8">NO PRIVATE REPO METRICS SHARED</tspan></text>
+    <text x="455" y="224" text-anchor="end" fill="#10B981" class="sub-mono">100% VERIFIED</text>
+  </g>
+
+  <!-- ==================== RIGHT CARD: CODEBASE DISTRIBUTION ==================== -->
+  <g transform="translate(515, 0)">
+    <rect width="485" height="240" rx="14" fill="url(#statsBg)" />
+    <rect x="1" y="1" width="483" height="238" rx="13" fill="none" stroke="url(#statsBorder2)" stroke-width="1.2" />
+
+    <!-- Top Header -->
+    <path d="M 1 38 L 484 38" stroke="#1e293b" stroke-width="1" />
+    <circle cx="25" cy="22" r="4.5" fill="#FF0080" class="pulse-dot-stats" filter="url(#glowStats)" />
+    <text x="38" y="26" fill="#FF0080" class="card-title">CORE CODEBASE STACK</text>
+    <text x="455" y="26" text-anchor="end" fill="#64748B" class="sub-mono">BY VOLUME</text>
+
+    <!-- Language 1: TypeScript -->
+    <g transform="translate(25, 62)">
+      <text x="0" y="0" fill="#38BDF8" font-size="12" font-family="ui-monospace, monospace" font-weight="700">TypeScript / Next.js</text>
+      <text x="435" y="0" text-anchor="end" fill="#38BDF8" class="val-mono">58%</text>
+      <rect x="0" y="8" width="435" height="6" rx="3" fill="#161b26" />
+      <rect x="0" y="8" width="250" height="6" rx="3" fill="url(#tsGrad)" class="bar-ts" />
+    </g>
+
+    <!-- Language 2: Rust -->
+    <g transform="translate(25, 102)">
+      <text x="0" y="0" fill="#FB923C" font-size="12" font-family="ui-monospace, monospace" font-weight="700">Rust (MASTerm Engine)</text>
+      <text x="435" y="0" text-anchor="end" fill="#FB923C" class="val-mono">22%</text>
+      <rect x="0" y="8" width="435" height="6" rx="3" fill="#161b26" />
+      <rect x="0" y="8" width="95" height="6" rx="3" fill="url(#rustGrad)" class="bar-rust" />
+    </g>
+
+    <!-- Language 3: Python -->
+    <g transform="translate(25, 142)">
+      <text x="0" y="0" fill="#34D399" font-size="12" font-family="ui-monospace, monospace" font-weight="700">Python (Automation &amp; AI)</text>
+      <text x="435" y="0" text-anchor="end" fill="#34D399" class="val-mono">12%</text>
+      <rect x="0" y="8" width="435" height="6" rx="3" fill="#161b26" />
+      <rect x="0" y="8" width="52" height="6" rx="3" fill="url(#pyGrad)" class="bar-py" />
+    </g>
+
+    <!-- Language 4: Go & Systems -->
+    <g transform="translate(25, 182)">
+      <text x="0" y="0" fill="#C084FC" font-size="12" font-family="ui-monospace, monospace" font-weight="700">Go &amp; Shell Scripting</text>
+      <text x="435" y="0" text-anchor="end" fill="#C084FC" class="val-mono">8%</text>
+      <rect x="0" y="8" width="435" height="6" rx="3" fill="#161b26" />
+      <rect x="0" y="8" width="35" height="6" rx="3" fill="url(#goGrad)" class="bar-go" />
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <path d="M 1 204 L 484 204" stroke="#1e293b" stroke-width="1" />
+    <text x="25" y="224" fill="#64748B" class="sub-mono">PRIMARY ARCHETYPES: SYSTEMS &amp; DISTRIBUTED</text>
+    <text x="455" y="224" text-anchor="end" fill="#A78BFA" class="sub-mono">SUB-50MS FOCUS</text>
+  </g>
+</svg>

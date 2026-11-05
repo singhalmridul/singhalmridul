@@ -47,8 +47,8 @@
     <circle cx="0" cy="0" r="4" fill="#10B981" />
     <text x="12" y="4" fill="#00F2FE" class="snake-text">CONTRIBUTION MATRIX // SNAKE RUNTIME</text>
   </g>
-  <g transform="translate(680, 24)">
-    <text x="0" y="4" fill="#64748B" class="snake-text">STATUS: <tspan fill="#10B981">EATING COMMITS</tspan></text>
+  <g transform="translate(820, 24)">
+    <text x="0" y="4" text-anchor="end" fill="#64748B" class="snake-text">STATUS: <tspan fill="#10B981">EATING COMMITS</tspan></text>
   </g>
 
   <!-- Contribution Grid Dots (7 rows x ~50 columns) -->
@@ -414,3 +414,4 @@
     <circle cx="365" cy="33" r="5" fill="#00F2FE" class="dot-food" filter="url(#snakeGlow)" />
   </g>
 </svg>
+

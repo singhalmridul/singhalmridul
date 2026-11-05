@@ -236,22 +236,8 @@ interface SystemsEngineer {
 <br/>
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <!-- GitHub Detailed Stats Card -->
-        <a href="https://github.com/singhalmridul">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=singhalmridul&show_icons=true&title_color=00f2fe&icon_color=ff0080&text_color=e2e8f0&bg_color=080c14&hide_border=false&border_color=1f293d&border_radius=12&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <!-- Top Languages Card -->
-        <a href="https://github.com/singhalmridul">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=singhalmridul&layout=compact&title_color=00f2fe&text_color=e2e8f0&bg_color=080c14&hide_border=false&border_color=1f293d&border_radius=12&langs_count=8" alt="Top Languages" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <!-- Public Performance Metrics & Codebase Stack -->
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/github-stats.svg" alt="Public Performance Metrics &amp; Codebase Distribution" width="100%" />
 </div>
 
 <br/>
