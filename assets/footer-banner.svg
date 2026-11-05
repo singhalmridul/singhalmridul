@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footerWaveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#7928CA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FF0080" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="footerWaveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="footerGlowText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE">
+        <animate attributeName="stop-color" values="#00F2FE;#FF0080;#7928CA;#00F2FE" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FF0080">
+        <animate attributeName="stop-color" values="#FF0080;#7928CA;#00F2FE;#FF0080" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <filter id="footerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes heartBeat {
+      0%, 100% { transform: scale(1); }
+      20% { transform: scale(1.25); }
+      40% { transform: scale(1.1); }
+      60% { transform: scale(1.25); }
+    }
+    .heart-icon {
+      animation: heartBeat 1.8s infinite ease-in-out;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .footer-mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    }
+    .footer-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="160" fill="#080C14" rx="12" />
+
+  <!-- Animated Wave Layer 2 (Back) -->
+  <path fill="url(#footerWaveGrad2)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0,60 C300,10 600,110 900,40 C1050,10 1150,70 1200,60 L1200,160 L0,160 Z;
+        M0,40 C350,100 650,20 950,80 C1100,110 1180,30 1200,40 L1200,160 L0,160 Z;
+        M0,60 C300,10 600,110 900,40 C1050,10 1150,70 1200,60 L1200,160 L0,160 Z
+      " />
+  </path>
+
+  <!-- Animated Wave Layer 1 (Front) -->
+  <path fill="url(#footerWaveGrad1)">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+        M0,80 C240,120 480,40 720,90 C960,130 1100,50 1200,80 L1200,160 L0,160 Z;
+        M0,90 C260,30 520,110 780,60 C980,20 1120,100 1200,90 L1200,160 L0,160 Z;
+        M0,80 C240,120 480,40 720,90 C960,130 1100,50 1200,80 L1200,160 L0,160 Z
+      " />
+  </path>
+
+  <!-- Center Signature Text -->
+  <g transform="translate(600, 100)" text-anchor="middle">
+    <!-- Heart Icon -->
+    <text x="0" y="0" fill="#E2E8F0" font-size="16" font-weight="600" class="footer-sans" letter-spacing="1">
+      Engineered for Scale &amp; Performance with
+      <tspan fill="#FF0080" class="heart-icon"> ❤️ </tspan>
+      by <tspan fill="url(#footerGlowText)" font-weight="800" filter="url(#footerGlow)">Mridul Singhal</tspan>
+    </text>
+
+    <!-- Subtext -->
+    <text x="0" y="24" fill="#64748B" font-size="11" font-weight="500" class="footer-mono" letter-spacing="1.5">
+      NEW DELHI, INDIA • ALWAYS LEARNING, ALWAYS BUILDING
+    </text>
+  </g>
+</svg>

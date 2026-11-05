@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <!-- Background & Glowing Gradients -->
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#080c16" />
+      <stop offset="100%" stop-color="#050810" />
+    </linearGradient>
+
+    <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6" />
+      <stop offset="35%" stop-color="#7928CA" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#FF0080" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Bar Gradients -->
+    <linearGradient id="cyanBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+
+    <linearGradient id="greenBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="purpleBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+
+    <linearGradient id="pinkBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff758c" />
+      <stop offset="100%" stop-color="#ff0844" />
+    </linearGradient>
+
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes barFill1 {
+      0% { width: 0px; }
+      50% { width: 190px; }
+      100% { width: 190px; }
+    }
+    @keyframes barFill2 {
+      0% { width: 0px; }
+      50% { width: 175px; }
+      100% { width: 175px; }
+    }
+    @keyframes barFill3 {
+      0% { width: 0px; }
+      50% { width: 160px; }
+      100% { width: 160px; }
+    }
+    @keyframes barFill4 {
+      0% { width: 0px; }
+      50% { width: 180px; }
+      100% { width: 180px; }
+    }
+    @keyframes signalPulse {
+      0%, 100% { stroke-dashoffset: 0; }
+      50% { stroke-dashoffset: 160; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    @keyframes sineFlow {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-160px); }
+    }
+
+    .meter-bar-1 { animation: barFill1 3s ease-out infinite alternate; }
+    .meter-bar-2 { animation: barFill2 3.2s ease-out infinite alternate; }
+    .meter-bar-3 { animation: barFill3 2.8s ease-out infinite alternate; }
+    .meter-bar-4 { animation: barFill4 3.5s ease-out infinite alternate; }
+
+    .pulse-dot { animation: blink 1.6s infinite ease-in-out; }
+    .waveform {
+      stroke-dasharray: 8 4;
+      animation: signalPulse 4s linear infinite;
+    }
+
+    .hud-title {
+      font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    .metric-val {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+    }
+    .metric-sub {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="240" rx="14" fill="url(#hudBg)" />
+  <rect x="1" y="1" width="1198" height="238" rx="13" fill="none" stroke="url(#hudBorder)" stroke-width="1.5" />
+
+  <!-- Top HUD Header Strip -->
+  <path d="M 1 36 L 1199 36" stroke="#1e293b" stroke-width="1" />
+  
+  <g transform="translate(30, 23)">
+    <!-- Cyan blinking node -->
+    <circle cx="0" cy="0" r="4.5" fill="#00F2FE" class="pulse-dot" filter="url(#glowCyan)" />
+    <text x="14" y="4" fill="#00F2FE" class="hud-title">LIVE ARCHITECTURE &amp; PERFORMANCE TELEMETRY</text>
+  </g>
+
+  <g transform="translate(850, 23)">
+    <text x="0" y="4" fill="#64748B" class="hud-title">SYS_LOAD : <tspan fill="#10B981">NORMAL</tspan> • MTTR REDUCTION : <tspan fill="#F472B6">60%</tspan></text>
+  </g>
+
+  <!-- Metric 1: Distributed Throughput -->
+  <g transform="translate(50, 75)">
+    <!-- Subtitle / Category -->
+    <text x="0" y="0" fill="#94A3B8" class="metric-sub">DISTRIBUTED THROUGHPUT</text>
+    <!-- Value -->
+    <text x="0" y="32" fill="#00F2FE" class="metric-val">50M+ <tspan fill="#64748B" font-size="14" font-weight="600">events/day</tspan></text>
+    <!-- Detail text -->
+    <text x="0" y="52" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">Michelin Observability Core</text>
+    <!-- Progress Bar Track -->
+    <rect x="0" y="65" width="210" height="6" rx="3" fill="#1e293b" />
+    <rect x="0" y="65" width="190" height="6" rx="3" fill="url(#cyanBar)" class="meter-bar-1" />
+  </g>
+
+  <!-- Separator 1 -->
+  <line x1="305" y1="56" x2="305" y2="165" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Metric 2: Terminal Startup Latency -->
+  <g transform="translate(345, 75)">
+    <text x="0" y="0" fill="#94A3B8" class="metric-sub">TERMINAL RUNTIME LATENCY</text>
+    <text x="0" y="32" fill="#10B981" class="metric-val">&lt; 50ms <tspan fill="#64748B" font-size="14" font-weight="600">startup</tspan></text>
+    <text x="0" y="52" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">MASTerm Rust Core (~5MB)</text>
+    <rect x="0" y="65" width="210" height="6" rx="3" fill="#1e293b" />
+    <rect x="0" y="65" width="175" height="6" rx="3" fill="url(#greenBar)" class="meter-bar-2" />
+  </g>
+
+  <!-- Separator 2 -->
+  <line x1="600" y1="56" x2="600" y2="165" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Metric 3: Operations Saved -->
+  <g transform="translate(640, 75)">
+    <text x="0" y="0" fill="#94A3B8" class="metric-sub">INFRASTRUCTURE AUTOMATION</text>
+    <text x="0" y="32" fill="#c084fc" class="metric-val">30 hrs <tspan fill="#64748B" font-size="14" font-weight="600">/ week saved</tspan></text>
+    <text x="0" y="52" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">Self-Service Platform (83% cut)</text>
+    <rect x="0" y="65" width="210" height="6" rx="3" fill="#1e293b" />
+    <rect x="0" y="65" width="160" height="6" rx="3" fill="url(#purpleBar)" class="meter-bar-3" />
+  </g>
+
+  <!-- Separator 3 -->
+  <line x1="895" y1="56" x2="895" y2="165" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Metric 4: Autonomous Security Swarm -->
+  <g transform="translate(935, 75)">
+    <text x="0" y="0" fill="#94A3B8" class="metric-sub">AUTONOMOUS SECURITY AGENTS</text>
+    <text x="0" y="32" fill="#FF0080" class="metric-val">10+ Swarms <tspan fill="#64748B" font-size="14" font-weight="600">active</tspan></text>
+    <text x="0" y="52" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">M.A.S. AI &amp; Bounty Hunter</text>
+    <rect x="0" y="65" width="210" height="6" rx="3" fill="#1e293b" />
+    <rect x="0" y="65" width="180" height="6" rx="3" fill="url(#pinkBar)" class="meter-bar-4" />
+  </g>
+
+  <!-- Bottom Streamlined Data Pipeline Banner -->
+  <g transform="translate(0, 195)">
+    <rect x="1" y="0" width="1198" height="44" rx="0" fill="#080c14" />
+    <path d="M 1 0 L 1199 0" stroke="#1e293b" stroke-width="1" />
+    
+    <!-- Left Status -->
+    <text x="50" y="27" fill="#64748B" class="hud-title">
+      <tspan fill="#38BDF8">STACK</tspan> : RUST • NEXT.JS 15 • TYPESCRIPT • PYTHON • SPLUNK • DOCKER • K8S • POSTGRES
+    </text>
+
+    <!-- Right Live Pulse Wave -->
+    <g transform="translate(900, 15)">
+      <path d="M 0 10 L 40 10 L 50 -2 L 60 22 L 70 0 L 80 18 L 90 10 L 160 10" fill="none" stroke="#00F2FE" stroke-width="1.8" class="waveform" />
+      <circle cx="210" cy="10" r="3.5" fill="#10B981" class="pulse-dot" />
+      <text x="222" y="14" fill="#10B981" font-family="ui-monospace, monospace" font-size="10" font-weight="700">HEARTBEAT 100%</text>
+    </g>
+  </g>
+</svg>
