@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="100%" height="100%">
+  <defs>
+    <!-- Dark Slate Surface -->
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141416" />
+      <stop offset="100%" stop-color="#0E0E10" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#302E2B" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#201F1D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#302E2B" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Titanium Shimmer for Large Numbers -->
+    <linearGradient id="specNumGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D4C5B9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .spec-num {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro", "Helvetica Neue", sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+    }
+    .spec-unit {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #8E8E93;
+      letter-spacing: 0px;
+    }
+    .spec-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #F5F5F7;
+      letter-spacing: -0.2px;
+    }
+    .spec-sub {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #8E8E93;
+    }
+    .apple-mono {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="210" rx="16" fill="#080808" />
+
+  <!-- ==================== SPEC CARD 1 ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="285" height="210" rx="14" fill="url(#cardSurface)" stroke="url(#cardBorder)" stroke-width="1" />
+    <g transform="translate(28, 48)">
+      <text x="0" y="0" fill="#8E8E93" font-size="10.5" font-weight="700" class="apple-mono" letter-spacing="1.2">SYSTEM SCALE</text>
+      <text x="0" y="48" fill="url(#specNumGrad)" class="spec-num">50M+</text>
+      <text x="0" y="80" class="spec-title">Events / Day Ingested</text>
+      <text x="0" y="104" class="spec-sub">Michelin Observability Core</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPEC CARD 2 ==================== -->
+  <g transform="translate(305, 0)">
+    <rect width="285" height="210" rx="14" fill="url(#cardSurface)" stroke="url(#cardBorder)" stroke-width="1" />
+    <g transform="translate(28, 48)">
+      <text x="0" y="0" fill="#8E8E93" font-size="10.5" font-weight="700" class="apple-mono" letter-spacing="1.2">LATENCY PROFILE</text>
+      <text x="0" y="48" fill="url(#specNumGrad)" class="spec-num">&lt;32ms</text>
+      <text x="0" y="80" class="spec-title">Prompt Startup Latency</text>
+      <text x="0" y="104" class="spec-sub">MASTerm Rust Engine (~5MB)</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPEC CARD 3 ==================== -->
+  <g transform="translate(610, 0)">
+    <rect width="285" height="210" rx="14" fill="url(#cardSurface)" stroke="url(#cardBorder)" stroke-width="1" />
+    <g transform="translate(28, 48)">
+      <text x="0" y="0" fill="#8E8E93" font-size="10.5" font-weight="700" class="apple-mono" letter-spacing="1.2">OPERATIONS IMPACT</text>
+      <text x="0" y="48" fill="url(#specNumGrad)" class="spec-num">-60%</text>
+      <text x="0" y="80" class="spec-title">Incident MTTR Reduction</text>
+      <text x="0" y="104" class="spec-sub">Automated Healing Workflows</text>
+    </g>
+  </g>
+
+  <!-- ==================== SPEC CARD 4 ==================== -->
+  <g transform="translate(915, 0)">
+    <rect width="285" height="210" rx="14" fill="url(#cardSurface)" stroke="url(#cardBorder)" stroke-width="1" />
+    <g transform="translate(28, 48)">
+      <text x="0" y="0" fill="#8E8E93" font-size="10.5" font-weight="700" class="apple-mono" letter-spacing="1.2">TIME RECOVERED</text>
+      <text x="0" y="48" fill="url(#specNumGrad)" class="spec-num">30 hrs</text>
+      <text x="0" y="80" class="spec-title">Saved Weekly / Engineer</text>
+      <text x="0" y="104" class="spec-sub">Self-Service Infra Platforms</text>
+    </g>
+  </g>
+</svg>

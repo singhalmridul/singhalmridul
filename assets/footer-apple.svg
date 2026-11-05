@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footerBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#141416" />
+      <stop offset="50%" stop-color="#3A3835" />
+      <stop offset="100%" stop-color="#141416" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="120" rx="14" fill="#080808" />
+  <line x1="80" y1="20" x2="1120" y2="20" stroke="url(#footerBorder)" stroke-width="1" />
+
+  <g transform="translate(600, 65)" text-anchor="middle">
+    <text x="0" y="0" fill="#F5F5F7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14" font-weight="700" letter-spacing="0.5">
+      Mridul Singhal
+    </text>
+    <text x="0" y="24" fill="#8E8E93" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1">
+      DESIGNED WITH RESTRAINT &amp; PRECISION • NEW DELHI, INDIA
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="specSheetBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141416" />
+      <stop offset="100%" stop-color="#0E0E10" />
+    </linearGradient>
+
+    <linearGradient id="specBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#302E2B" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#201F1D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#302E2B" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .cat-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #D4C5B9;
+      letter-spacing: -0.2px;
+    }
+    .pill-box {
+      fill: #1A1918;
+      stroke: #2E2C2A;
+      stroke-width: 1;
+    }
+    .pill-text {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #E5E5EA;
+    }
+    .spec-header {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #8E8E93;
+      letter-spacing: 1.2px;
+    }
+  </style>
+
+  <!-- Sheet Base -->
+  <rect width="1100" height="280" rx="16" fill="url(#specSheetBg)" stroke="url(#specBorder)" stroke-width="1" />
+
+  <!-- Top Title Bar -->
+  <path d="M 0 42 L 1100 42" stroke="#1E1E20" stroke-width="1" />
+  <g transform="translate(40, 26)">
+    <text x="0" y="3.5" class="spec-header">TECHNICAL SPECIFICATIONS • CORE WEAPONRY &amp; TOOLING</text>
+  </g>
+  <g transform="translate(1060, 26)">
+    <text x="0" y="3.5" text-anchor="end" fill="#636366" font-family="'SF Mono', monospace" font-size="10.5">
+      VERIFIED PRODUCTION CAPABILITIES
+    </text>
+  </g>
+
+  <!-- Row 1: Systems & Core -->
+  <g transform="translate(40, 72)">
+    <text x="0" y="16" class="cat-title">Systems &amp; Low-Latency</text>
+    <g transform="translate(240, 0)">
+      <!-- Rust -->
+      <g transform="translate(0, 0)">
+        <rect width="70" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Rust</text>
+      </g>
+      <!-- TypeScript -->
+      <g transform="translate(80, 0)">
+        <rect width="105" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">TypeScript</text>
+      </g>
+      <!-- Go -->
+      <g transform="translate(195, 0)">
+        <rect width="55" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Go</text>
+      </g>
+      <!-- Python -->
+      <g transform="translate(260, 0)">
+        <rect width="80" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Python</text>
+      </g>
+      <!-- C++ -->
+      <g transform="translate(350, 0)">
+        <rect width="60" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">C++</text>
+      </g>
+      <!-- Shell -->
+      <g transform="translate(420, 0)">
+        <rect width="85" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Zsh / Bash</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Row 2: Frontend & Spatial 3D -->
+  <g transform="translate(40, 115)">
+    <text x="0" y="16" class="cat-title">Spatial &amp; Frontend</text>
+    <g transform="translate(240, 0)">
+      <g transform="translate(0, 0)">
+        <rect width="90" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Next.js 15</text>
+      </g>
+      <g transform="translate(100, 0)">
+        <rect width="80" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">React 19</text>
+      </g>
+      <g transform="translate(190, 0)">
+        <rect width="90" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Three.js</text>
+      </g>
+      <g transform="translate(290, 0)">
+        <rect width="115" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Framer Motion</text>
+      </g>
+      <g transform="translate(415, 0)">
+        <rect width="110" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Tailwind CSS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Row 3: Backend & Event Streams -->
+  <g transform="translate(40, 158)">
+    <text x="0" y="16" class="cat-title">Backend &amp; Distributed</text>
+    <g transform="translate(240, 0)">
+      <g transform="translate(0, 0)">
+        <rect width="85" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Node.js</text>
+      </g>
+      <g transform="translate(95, 0)">
+        <rect width="80" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">FastAPI</text>
+      </g>
+      <g transform="translate(185, 0)">
+        <rect width="85" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Express</text>
+      </g>
+      <g transform="translate(280, 0)">
+        <rect width="90" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">GraphQL</text>
+      </g>
+      <g transform="translate(380, 0)">
+        <rect width="115" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">RESTful APIs</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Row 4: Distributed State & Cloud -->
+  <g transform="translate(40, 201)">
+    <text x="0" y="16" class="cat-title">State, Cloud &amp; Infra</text>
+    <g transform="translate(240, 0)">
+      <g transform="translate(0, 0)">
+        <rect width="95" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">PostgreSQL</text>
+      </g>
+      <g transform="translate(105, 0)">
+        <rect width="65" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Redis</text>
+      </g>
+      <g transform="translate(180, 0)">
+        <rect width="90" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">MongoDB</text>
+      </g>
+      <g transform="translate(280, 0)">
+        <rect width="75" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Splunk</text>
+      </g>
+      <g transform="translate(365, 0)">
+        <rect width="75" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Docker</text>
+      </g>
+      <g transform="translate(450, 0)">
+        <rect width="105" height="26" rx="6" class="pill-box" />
+        <text x="14" y="17" class="pill-text">Kubernetes</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Divider Line -->
+  <path d="M 0 245 L 1100 245" stroke="#1E1E20" stroke-width="1" />
+  <g transform="translate(40, 263)">
+    <text x="0" y="0" fill="#636366" font-family="'SF Mono', monospace" font-size="10" letter-spacing="1">
+      STANDARDS: <tspan fill="#A1A1A6">TYPE SAFETY</tspan> • <tspan fill="#A1A1A6">MEMORY EFFICIENCY</tspan> • <tspan fill="#A1A1A6">PARALLEL CONCURRENCY</tspan>
+    </text>
+  </g>
+</svg>

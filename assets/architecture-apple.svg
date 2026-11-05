@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueprintBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121214" />
+      <stop offset="100%" stop-color="#0A0A0C" />
+    </linearGradient>
+
+    <linearGradient id="nodeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3835" />
+      <stop offset="100%" stop-color="#242322" />
+    </linearGradient>
+
+    <linearGradient id="accentBeige" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5F5F7" />
+      <stop offset="100%" stop-color="#D4C5B9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulseDash {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+    .flow-wire {
+      stroke-dasharray: 4 4;
+      animation: pulseDash 2s linear infinite;
+    }
+    .apple-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #F5F5F7;
+    }
+    .apple-sub {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+      font-size: 10px;
+      font-weight: 500;
+      fill: #8E8E93;
+    }
+    .apple-badge {
+      font-family: "SF Mono", ui-monospace, Menlo, monospace;
+      font-size: 9.5px;
+      font-weight: 600;
+      fill: #D4C5B9;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1100" height="280" rx="16" fill="url(#blueprintBg)" stroke="#262524" stroke-width="1" />
+
+  <!-- Top Schematic Header -->
+  <path d="M 0 42 L 1100 42" stroke="#1E1E20" stroke-width="1" />
+  <g transform="translate(40, 26)">
+    <circle cx="0" cy="0" r="3.5" fill="#D4C5B9" />
+    <text x="14" y="3.5" fill="#E8DFD8" font-family="'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">
+      SYSTEM ARCHITECTURE • PRODUCTION SCHEMATIC
+    </text>
+  </g>
+  <g transform="translate(1060, 26)">
+    <text x="0" y="3.5" text-anchor="end" fill="#636366" font-family="'SF Mono', monospace" font-size="10.5" letter-spacing="0.8">
+      SLA TARGET: 99.95% HIGH AVAILABILITY
+    </text>
+  </g>
+
+  <!-- Connection Lines (Data Stream Wires) -->
+  <!-- Wire 1: Client -> Edge Gateway -->
+  <line x1="200" y1="140" x2="270" y2="140" stroke="#48484A" stroke-width="1.5" class="flow-wire" />
+
+  <!-- Wire 2: Gateway -> Rust Core (Up) -->
+  <path d="M 410 120 L 450 95 L 490 95" fill="none" stroke="#48484A" stroke-width="1.5" class="flow-wire" />
+
+  <!-- Wire 3: Gateway -> Distributed State (Down) -->
+  <path d="M 410 160 L 450 185 L 490 185" fill="none" stroke="#48484A" stroke-width="1.5" class="flow-wire" />
+
+  <!-- Wire 4: Rust Core -> Observability -->
+  <path d="M 650 95 L 720 95 L 780 125" fill="none" stroke="#636366" stroke-width="1.5" class="flow-wire" />
+
+  <!-- Wire 5: State -> Observability -->
+  <path d="M 650 185 L 720 185 L 780 155" fill="none" stroke="#636366" stroke-width="1.5" class="flow-wire" />
+
+  <!-- Wire 6: Observability -> Alerting Core -->
+  <line x1="940" y1="140" x2="980" y2="140" stroke="#8E8E93" stroke-width="1.5" class="flow-wire" />
+
+  <!-- ==================== NODE 1: CLIENT TIER ==================== -->
+  <g transform="translate(50, 95)">
+    <rect width="150" height="90" rx="10" fill="#18181A" stroke="url(#nodeBorder)" stroke-width="1" />
+    <g transform="translate(18, 28)">
+      <text x="0" y="0" class="apple-title">Next.js 15 &amp; 3D</text>
+      <text x="0" y="20" class="apple-sub">Edge App Router</text>
+      <text x="0" y="38" class="apple-badge">SUB-10MS UI</text>
+    </g>
+  </g>
+
+  <!-- ==================== NODE 2: EDGE GATEWAY ==================== -->
+  <g transform="translate(270, 95)">
+    <rect width="140" height="90" rx="10" fill="#18181A" stroke="url(#nodeBorder)" stroke-width="1" />
+    <g transform="translate(18, 28)">
+      <text x="0" y="0" class="apple-title">Edge Gateway</text>
+      <text x="0" y="20" class="apple-sub">Env Safety Guard</text>
+      <text x="0" y="38" class="apple-badge">RATE &amp; AUTH</text>
+    </g>
+  </g>
+
+  <!-- ==================== NODE 3: RUST SYSTEMS RUNTIME (TOP) ==================== -->
+  <g transform="translate(490, 50)">
+    <rect width="160" height="90" rx="10" fill="#18181A" stroke="url(#nodeBorder)" stroke-width="1" />
+    <g transform="translate(18, 28)">
+      <text x="0" y="0" class="apple-title">Rust Core Engine</text>
+      <text x="0" y="20" class="apple-sub">MASTerm / Tokio Async</text>
+      <text x="0" y="38" class="apple-badge">&lt;32MS STARTUP</text>
+    </g>
+  </g>
+
+  <!-- ==================== NODE 4: DISTRIBUTED STATE (BOTTOM) ==================== -->
+  <g transform="translate(490, 140)">
+    <rect width="160" height="90" rx="10" fill="#18181A" stroke="url(#nodeBorder)" stroke-width="1" />
+    <g transform="translate(18, 28)">
+      <text x="0" y="0" class="apple-title">Distributed State</text>
+      <text x="0" y="20" class="apple-sub">Redis &amp; Postgres Shards</text>
+      <text x="0" y="38" class="apple-badge">IDEMPOTENT</text>
+    </g>
+  </g>
+
+  <!-- ==================== NODE 5: OBSERVABILITY PIPELINE ==================== -->
+  <g transform="translate(780, 95)">
+    <rect width="160" height="90" rx="10" fill="#1A1918" stroke="#3A3835" stroke-width="1" />
+    <g transform="translate(18, 28)">
+      <text x="0" y="0" fill="#F5F5F7" class="apple-title">Observability Core</text>
+      <text x="0" y="20" class="apple-sub">Splunk &amp; Fleet Telemetry</text>
+      <text x="0" y="38" class="apple-badge">50M+ EVT / DAY</text>
+    </g>
+  </g>
+
+  <!-- ==================== NODE 6: INCIDENT HEALING ==================== -->
+  <g transform="translate(980, 95)">
+    <rect width="70" height="90" rx="10" fill="#141416" stroke="url(#nodeBorder)" stroke-width="1" />
+    <g transform="translate(14, 38)">
+      <text x="0" y="0" fill="#D4C5B9" font-family="'SF Mono', monospace" font-size="11" font-weight="700">-60%</text>
+      <text x="0" y="18" fill="#8E8E93" font-family="'SF Mono', monospace" font-size="9">MTTR</text>
+    </g>
+  </g>
+
+  <!-- Bottom Legend Strip -->
+  <path d="M 0 240 L 1100 240" stroke="#1E1E20" stroke-width="1" />
+  <g transform="translate(40, 260)">
+    <text x="0" y="0" fill="#636366" font-family="'SF Mono', monospace" font-size="10" letter-spacing="1">
+      ARCHITECTURAL STANDARDS : 
+      <tspan fill="#A1A1A6"> ZERO-COST ABSTRACTIONS </tspan> • 
+      <tspan fill="#A1A1A6"> GRACEFUL DEGRADATION </tspan> • 
+      <tspan fill="#A1A1A6"> PROVABLE IDEMPOTENCY </tspan> • 
+      <tspan fill="#D4C5B9"> PRODUCTION AUDIT TRAIL </tspan>
+    </text>
+  </g>
+</svg>
