@@ -1,204 +1,288 @@
-<!-- ======================================================= -->
-<!--          MRIDUL SINGHAL - GITHUB PROFILE README         -->
-<!--  Full-Stack Engineer & Systems Architect | New Delhi, IN -->
-<!-- ======================================================= -->
+<!-- ================================================================= -->
+<!--                   MRIDUL SINGHAL // SPATIAL OS                    -->
+<!--       Full-Stack Engineer & Systems Architect | New Delhi, IN    -->
+<!-- ================================================================= -->
 
 <div align="center">
-  <!-- Motion Graphics Hero Banner -->
-  <a href="https://github.com/singhalmridul">
-    <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/hero-banner.svg" alt="Mridul Singhal - Full-Stack Engineer &amp; Systems Architect" width="100%" />
+
+  <!-- 3D Isometric Holographic Core Mainframe -->
+  <a href="https://mridulsinghal.com">
+    <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/cyber-core.svg" alt="Mridul Singhal - Spatial OS Holographic Core" width="100%" />
   </a>
 
   <br/><br/>
 
-  <!-- High-Performance Animated Typing Subtitle -->
-  <a href="https://github.com/singhalmridul">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1100&color=00F2FE&center=true&vCenter=true&width=780&height=45&lines=Full-Stack+Engineer+%26+Systems+Architect+%E2%9A%A1;Scaling+Observability+Platforms+to+50M%2B+Events%2FDay+%F0%9F%93%88;Author+of+MASTerm%3A+Sub-50ms+Rust+Terminal+Runtime+%F0%9F%A6%80;Building+Autonomous+AI+Security+Agents+(M.A.S.+AI)+%F0%9F%9B%A1%EF%B8%8F;Crafting+Interactive+3D+Experiences+with+Next.js+15+%26+Three.js+%E2%9C%A8" alt="Typing SVG" />
+  <!-- High-Frequency Animated Typing Subtitle -->
+  <a href="https://mridulsinghal.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=1000&color=00F2FE&center=true&vCenter=true&width=820&height=46&lines=%E2%96%B6+INITIALIZING+SPATIAL+SYSTEMS+ARCHITECT+KERNEL...;%E2%9A%A1+SCALING+DISTRIBUTED+PIPELINES+TO+50M%2B+EVENTS%2FDAY;%F0%9F%A6%80+SUB-50MS+RUST+RUNTIME+ENGINE+(MASTERM+CORE);%F0%9F%9B%A1%EF%B8%8F+10%2B+AUTONOMOUS+AI+SECURITY+SWARMS+ACTIVE;%E2%9C%A8+EXPLORE+THE+INTERACTIVE+MISSIONS+BELOW" alt="Typing Terminal" />
   </a>
 
   <br/>
 
-  <!-- Metric Badges Strip -->
+  <!-- Telemetry Badges Strip -->
   <p align="center">
-    <a href="https://komarev.com/ghpvc/?username=singhalmridul">
-      <img src="https://komarev.com/ghpvc/?username=singhalmridul&label=PROFILE+VIEWS&style=for-the-badge&color=00F2FE" alt="Profile Views" />
+    <a href="https://mridulsinghal.com">
+      <img src="https://img.shields.io/badge/PORTFOLIO-MRIDULSINGHAL.COM-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
     </a>
     &nbsp;
-    <a href="https://github.com/singhalmridul?tab=followers">
-      <img src="https://img.shields.io/github/followers/singhalmridul?label=FOLLOWERS&style=for-the-badge&color=7928CA&logo=github&logoColor=white" alt="Followers" />
+    <a href="https://komarev.com/ghpvc/?username=singhalmridul">
+      <img src="https://komarev.com/ghpvc/?username=singhalmridul&label=TRAFFIC+PULSE&style=for-the-badge&color=7928CA" alt="Profile Views" />
     </a>
     &nbsp;
     <a href="https://github.com/singhalmridul?tab=repositories">
-      <img src="https://img.shields.io/github/stars/singhalmridul?label=STARS&style=for-the-badge&color=FF0080&logo=star&logoColor=white" alt="Stars" />
+      <img src="https://img.shields.io/github/stars/singhalmridul?label=STARS+EARNED&style=for-the-badge&color=FF0080&logo=star&logoColor=white" alt="Stars" />
     </a>
     &nbsp;
-    <a href="https://github.com/singhalmridul">
-      <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20COLLAB-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+    <a href="https://www.linkedin.com/in/mridulsinghal/">
+      <img src="https://img.shields.io/badge/NETWORK-CONNECT-10B981?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect" />
     </a>
   </p>
 
-  <br/>
+</div>
 
-  <!-- Live Telemetry & Architecture HUD -->
-  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/telemetry-hud.svg" alt="System Telemetry &amp; Performance Metrics HUD" width="100%" />
+<br/>
 
+<!-- ================================================================= -->
+<!--                SECTION 1: SYSTEM NEOFETCH TERMINAL               -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/terminal-neofetch.svg" alt="Terminal Neofetch Diagnostic" width="100%" />
+</div>
+
+<br/>
+
+<!-- ================================================================= -->
+<!--              SECTION 2: LIVE PERFORMANCE TELEMETRY                -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/telemetry-hud.svg" alt="Live Architecture &amp; Performance Telemetry" width="100%" />
 </div>
 
 <br/>
 
 ---
 
-### ⚡ Operational Philosophy & About Me
+<!-- ================================================================= -->
+<!--           SECTION 3: INTERACTIVE MISSION EXPLORATION HUB          -->
+<!-- ================================================================= -->
 
-<table>
-<tr>
-<td width="60%" valign="top">
+## 🕹️ Choose Your Exploration Protocol
 
-```typescript
-interface SystemsEngineer {
-  name: "Mridul Singhal";
-  location: "New Delhi, India 🇮🇳";
-  role: "Full-Stack Engineer & Systems Architect";
-  scaleExperience: {
-    eventThroughput: "50M+ events / day";
-    incidentMTTR: "Reduced by 60%";
-    opsAutomated: "30+ engineering hrs / week saved";
-    uptimeTarget: "99.95% high availability";
-  };
-  specializations: [
-    "Distributed Systems & Enterprise Observability",
-    "Sub-50ms CLI Runtimes (Rust)",
-    "Autonomous AI Multi-Agent Security Swarms",
-    "Interactive 3D Web & Next.js 15 Architecture"
-  ];
-  architecturalPrinciples: [
-    "Zero-cost abstractions over bloated runtimes",
-    "Design for failure & graceful degradation",
-    "Idempotency in all state transitions"
-  ];
-}
+> **[!] CLICK ANY SYSTEM PROTOCOL BELOW TO EXPAND ARCHITECTURAL EVIDENCE, BENCHMARKS & RUNTIME LOGS:**
+
+<br/>
+
+<details>
+<summary><b>🔥 [PROTOCOL 01 : THE 50M+ DISTRIBUTED OBSERVABILITY PIPELINE]</b> — <i>Click to inspect Michelin production scale</i></summary>
+
+<br/>
+
+```
+[SYS_TRACE] PIPELINE INITIALIZED // SOURCE: MICHELIN FLEET TELEMETRY
+[THROUGHPUT] 50,000,000+ daily events ingested and transformed in real time
+[RELIABILITY] 99.95% availability SLA across multi-region infrastructure
+[INCIDENT MTTR] Reduced by 60% through automated event correlation & alerting
+[OPS AUTOMATION] 30+ engineering hours saved weekly via self-service platforms
 ```
 
-- 🔭 **Enterprise Scale**: Architected distributed observability platforms at Michelin handling **50M+ events/day**, automating critical operations and slashing MTTR by **60%**.
-- 🦀 **Low-Latency Runtimes**: Created **MASTerm**, a modular terminal intelligence engine in Rust executing parallel plugins with **sub-50ms prompt latency**.
-- 🛡️ **Autonomous Security**: Engineered **M.A.S. AI** & **AI Bug Bounty Hunter**, defensive-first autonomous security swarms with 10+ scanning agents.
-- 🌐 **Modern Frontend & 3D**: Crafting spatial web experiences with Next.js 15, Three.js, and Framer Motion.
-
-</td>
-<td width="40%" valign="top">
-
+#### 📐 End-to-End Pipeline Wireframe
 <div align="center">
-  <br/>
-  <img src="https://img.shields.io/badge/CORE_FOCUS-SYSTEMS_ARCHITECTURE-00F2FE?style=for-the-badge&logo=codewars&logoColor=black" width="90%"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/THROUGHPUT-50M+_EVENTS/DAY-7928CA?style=for-the-badge&logo=splunk&logoColor=white" width="90%"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/RUNTIME_LATENCY-SUB--50MS-10B981?style=for-the-badge&logo=rust&logoColor=white" width="90%"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/SECURITY_SWARM-10+_AI_AGENTS-FF0080?style=for-the-badge&logo=openai&logoColor=white" width="90%"/>
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/system-architecture.svg" alt="System Architecture Flowchart" width="100%" />
 </div>
 
-</td>
-</tr>
-</table>
+* **Architectural Decisions & Tradeoffs**:
+  * **Event Idempotency**: Implemented deterministic hashing on inbound telemetry payloads to guarantee zero duplicate executions even during aggressive network retries.
+  * **Graceful Degradation**: Edge collectors queue metrics locally in ring buffers when upstream forwarders throttle, preventing catastrophic data drops during traffic surges.
+  * **Automated Runbooks**: Packaged self-healing scripts for certificate rotation, automated log pruning, and dynamic cluster rebalancing.
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🦀 [PROTOCOL 02 : SUB-50MS RUST RUNTIME &amp; TOOLING]</b> — <i>Click to inspect MASTerm &amp; Systems Programming</i></summary>
+
+<br/>
+
+```
+[SYSTEM] MASTerm Core Engine v0.3.1 (Rust Edition)
+[BENCHMARK] Cold startup: 31.4ms | Steady prompt: 14.2ms | Memory: 4.8MB
+[SAFETY] AST-level production command interception: ACTIVE
+```
+
+```
+           SHELL STARTUP LATENCY BENCHMARK (LOWER IS BETTER)
+┌───────────────────────────────────────────────────────────────┐
+│ Oh-My-Zsh (Standard plugins)  ████████████████████ 220ms      │
+│ Starship (Default config)     ████████ 85ms                   │
+│ MASTerm (Rust Parallel Core)  ███ 31ms ⚡                     │
+└───────────────────────────────────────────────────────────────┘
+```
+
+* **Core Technical Innovations**:
+  * **Parallel Asynchronous Plugin Engine**: Leveraged `tokio` multi-threading to execute 11+ independent environment gatherers concurrently, eliminating serial bottlenecks.
+  * **Zero-Cost Abstractions**: Minimized runtime footprint down to ~5MB native binary compared to 50MB+ managed language alternatives.
+  * **Production Safety Guard**: Real-time regex & AST shell inspection that blocks destructive commands (`rm -rf`, `DROP TABLE`, uncapped force pushes) inside production environments.
+
+👉 **[Inspect MASTerm on GitHub](https://github.com/singhalmridul/MASTerm)** • `cargo install masterm`
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🛡️ [PROTOCOL 03 : AUTONOMOUS MULTI-AGENT AI SECURITY SWARM]</b> — <i>Click to inspect M.A.S. AI</i></summary>
+
+<br/>
+
+```
+[AI_SWARM] DISPATCHING DEFENSIVE PENTEST SQUADRON (10 SPECIALIZED AGENTS)
+  ├── 01. ReconAgent       ──> Attack surface topology & DNS mapping
+  ├── 02. ASTCrawler       ──> Reverse-engineers frontend JS bundles for hidden endpoints
+  ├── 03. AuthFuzzer       ──> JWT tampering, OAuth edge cases, broken object level auth
+  ├── 04. InjectionProber  ──> Blind SQLi, NoSQL injection, server-side template injection
+  ├── 05. GraphReasoner    ──> Chains low-priority anomalies into high-impact exploit vectors
+  └── 06. PoCGenerator     ──> Produces deterministic, reproducible curl & script proofs
+```
+
+* **How It Works**:
+  * Rather than relying on simple pattern-matching, **M.A.S. AI** builds a living knowledge graph of target applications.
+  * Agents communicate via an event bus to simulate a coordinated human red team, validating security postures before adversaries can exploit them.
+
+👉 **[Explore M.A.S. AI](https://github.com/singhalmridul/masai)** &bull; **[Explore AI Bug Bounty Hunter](https://github.com/singhalmridul/ai-bug-bounty-hunter)**
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>✨ [PROTOCOL 04 : 3D SPATIAL COMPUTING &amp; NEXT.JS 15]</b> — <i>Click to inspect mridulsinghal.com &amp; Flux</i></summary>
+
+<br/>
+
+```
+[FRONTEND] Next.js 15 App Router (React 19) + Three.js + Framer Motion
+[VIEWPORT] 3D interactive hero canvas with customized fragment shaders
+[PERFORMANCE] Perfect 60 FPS scroll cadence & sub-1.2s Largest Contentful Paint
+[DESIGN SYSTEM] Spatial Glassmorphic UI with dynamic perspective lighting
+```
+
+* **Engineering Highlights**:
+  * **Server-Driven Geometry**: Static pre-rendering of complex layout hierarchies paired with client-side WebGL canvas streaming.
+  * **Memory Optimization**: Explicit GPU geometry and texture disposal during route transitions to eliminate WebGL memory leaks.
+  * **Polymorphic Spatial Workspaces**: Architected `Flux`, an enterprise OS concept unifying Ideation, Execution, and Scheduling into one seamless canvas.
+
+👉 **[Launch 3D Portfolio](https://mridulsinghal.com)** &bull; **[View Portfolio Codebase](https://github.com/singhalmridul/mridulsinghal.com)**
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🕹️ [PROTOCOL 05 : INTERACTIVE TERMINAL SIMULATOR &amp; SECRETS]</b> — <i>Click to run hidden commands</i></summary>
+
+<br/>
+
+```bash
+$ mridul --query-philosophies
+> [RULE 1] "Premature optimization is evil; but unmeasured slowness is criminal."
+> [RULE 2] "If it isn't monitored, it isn't running in production."
+> [RULE 3] "Idempotency saves weekends."
+
+$ mridul --fun-fact
+> "I debug with console.log, write sub-50ms prompts in Rust, and run on single-origin pour-overs ☕"
+
+$ mridul --status
+> [STATUS: ONLINE] Always open to challenging distributed systems architecture,
+> high-throughput infra, and autonomous AI engineering roles worldwide.
+```
+
+</details>
 
 <br/>
 
 ---
 
-### 🌐 End-to-End System Architecture
+<!-- ================================================================= -->
+<!--               SECTION 4: FLAGSHIP CYBERDECK PROJECTS             -->
+<!-- ================================================================= -->
 
-<div align="center">
-  <p><i>Live Data Wireframe: From Client Edge through Rust Runtimes to AI Defense Swarms &amp; Observability</i></p>
-  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/system-architecture.svg" alt="Distributed System Architecture Flowchart" width="100%" />
-</div>
+## 🚀 Flagship Cyberdeck Projects
 
 <br/>
-
----
-
-### 🚀 Flagship Engineering Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <div align="left">
+      <div>
         <h3>🦀 <a href="https://github.com/singhalmridul/MASTerm">MASTerm — Master Your Terminal</a></h3>
         <p><b>Blazing-fast, intelligent, cross-shell terminal framework built in Rust (Zsh, Bash, Fish).</b></p>
-        <p>Replaces sluggish shell environments with a sub-50ms async prompt engine, parallel multi-threaded plugin execution, and built-in production safety guards.</p>
+        <p>Replaces sluggish shell startup times with sub-50ms asynchronous prompt rendering, parallel multi-threaded plugin execution, and built-in production safety guards.</p>
+        <br/>
         <p>
-          <img src="https://img.shields.io/badge/Startup-&lt;50ms-10B981?style=flat-square" alt="Startup" />
-          <img src="https://img.shields.io/badge/Memory-~5MB-00F2FE?style=flat-square" alt="Memory" />
-          <img src="https://img.shields.io/badge/Rust-Tokio%20%7C%20Ratatui-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+          <a href="https://github.com/singhalmridul/MASTerm"><img src="https://img.shields.io/badge/SPEED-&lt;50ms-10B981?style=for-the-badge&logo=fastapi&logoColor=white" alt="Speed" /></a>
+          &nbsp;
+          <a href="https://github.com/singhalmridul/MASTerm"><img src="https://img.shields.io/badge/MEMORY-~5MB-00F2FE?style=for-the-badge&logo=rust&logoColor=white" alt="Memory" /></a>
         </p>
-        <details>
-          <summary><b>📐 View Architectural Highlights</b></summary>
-          <ul>
-            <li><b>Rust vs Managed:</b> Zero-cost abstractions yielding 5MB native binaries vs 50MB+ runtime footprints.</li>
-            <li><b>Hybrid Plugin Core:</b> 11+ native gatherers running async in parallel with sandboxed WASM extensions.</li>
-            <li><b>Prod Safety Guard:</b> AST-level environment detection preventing destructive operations in production shells.</li>
-          </ul>
-        </details>
+        <p>
+          <a href="https://github.com/singhalmridul/MASTerm"><b>[ 📦 Inspect Rust Crate ]</b></a> &nbsp;&bull;&nbsp;
+          <a href="https://github.com/singhalmridul/MASTerm"><b>[ ⚡ Read Benchmarks ]</b></a>
+        </p>
       </div>
     </td>
     <td width="50%" valign="top">
-      <div align="left">
+      <div>
         <h3>🛡️ <a href="https://github.com/singhalmridul/masai">M.A.S. AI — Adaptive Security Swarm</a></h3>
         <p><b>Defensive-First AI-Powered Penetration Testing &amp; Vulnerability Platform.</b></p>
         <p>Enterprise-grade security scanner orchestrating 10+ specialized agents for context-aware crawling, intelligent exploitation graphing, and automated risk scoring.</p>
+        <br/>
         <p>
-          <img src="https://img.shields.io/badge/Agents-10+_Specialized-FF0080?style=flat-square" alt="Agents" />
-          <img src="https://img.shields.io/badge/Model-Graph--Based-7928CA?style=flat-square" alt="Graph" />
-          <img src="https://img.shields.io/badge/Stack-TypeScript%20%7C%20AI-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
+          <a href="https://github.com/singhalmridul/masai"><img src="https://img.shields.io/badge/SWARM-10+_AGENTS-FF0080?style=for-the-badge&logo=openai&logoColor=white" alt="Agents" /></a>
+          &nbsp;
+          <a href="https://github.com/singhalmridul/masai"><img src="https://img.shields.io/badge/LOGIC-GRAPH_BASED-7928CA?style=for-the-badge&logo=graphql&logoColor=white" alt="Graph" /></a>
         </p>
-        <details>
-          <summary><b>📐 View Architectural Highlights</b></summary>
-          <ul>
-            <li><b>Multi-Agent Swarm:</b> Specialized agents for recon, authentication fuzzing, SQL injection, and logic bypass.</li>
-            <li><b>Knowledge Graph:</b> Real-time mapping of attack surfaces and dependency relationships.</li>
-            <li><b>Zero Blindspots:</b> Autonomous crawling engine simulating human pentester intuition.</li>
-          </ul>
-        </details>
+        <p>
+          <a href="https://github.com/singhalmridul/masai"><b>[ 🛡️ Deploy Security Swarm ]</b></a> &nbsp;&bull;&nbsp;
+          <a href="https://github.com/singhalmridul/masai"><b>[ 🔍 View Topology ]</b></a>
+        </p>
       </div>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <div align="left">
-        <h3>✨ <a href="https://github.com/singhalmridul/mridulsinghal.com">mridulsinghal.com — 3D Spatial Portfolio</a></h3>
+      <div>
+        <h3>✨ <a href="https://mridulsinghal.com">mridulsinghal.com — 3D Spatial Portfolio</a></h3>
         <p><b>Engineering-first personal portfolio built with Next.js 15, Three.js, and Framer Motion.</b></p>
-        <p>Featuring a 3D interactive hero section, glassmorphic design system, and in-depth architectural case studies of production platforms.</p>
+        <p>Featuring a 3D interactive hero section, spatial glassmorphism design system, and deep architectural case studies of enterprise platforms.</p>
+        <br/>
         <p>
-          <img src="https://img.shields.io/badge/Framework-Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white" alt="Nextjs" />
-          <img src="https://img.shields.io/badge/3D-Three.js-00F2FE?style=flat-square&logo=threedotjs&logoColor=white" alt="Threejs" />
-          <img src="https://img.shields.io/badge/Motion-Framer_Motion-F472B6?style=flat-square" alt="Framer" />
+          <a href="https://mridulsinghal.com"><img src="https://img.shields.io/badge/STACK-NEXT.JS_15-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" /></a>
+          &nbsp;
+          <a href="https://mridulsinghal.com"><img src="https://img.shields.io/badge/3D-THREE.JS-00F2FE?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" /></a>
         </p>
-        <details>
-          <summary><b>📐 View Architectural Highlights</b></summary>
-          <ul>
-            <li><b>Server Components:</b> Edge CDN caching with zero hydration mismatch.</li>
-            <li><b>Performance First:</b> 3D canvas lazy-loaded to preserve 60fps scrolling and Core Web Vitals.</li>
-          </ul>
-        </details>
+        <p>
+          <a href="https://mridulsinghal.com"><b>[ 🌐 Launch Interactive 3D ]</b></a> &nbsp;&bull;&nbsp;
+          <a href="https://github.com/singhalmridul/mridulsinghal.com"><b>[ 📂 GitHub Codebase ]</b></a>
+        </p>
       </div>
     </td>
     <td width="50%" valign="top">
-      <div align="left">
+      <div>
         <h3>🔍 <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter">AI Bug Bounty Hunter</a></h3>
         <p><b>The Autonomous Security Analyst that never sleeps. Context-aware crawling &amp; exploitation.</b></p>
         <p>Graph-based vulnerability reasoning agent capable of chaining low-severity findings into actionable high-impact security alerts.</p>
+        <br/>
         <p>
-          <img src="https://img.shields.io/badge/Mode-Autonomous_Hunter-7928CA?style=flat-square" alt="Hunter" />
-          <img src="https://img.shields.io/badge/Intelligence-Context_Aware-00F2FE?style=flat-square" alt="Intelligence" />
-          <img src="https://img.shields.io/badge/Target-Web%20%7C%20API-10B981?style=flat-square" alt="Target" />
+          <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter"><img src="https://img.shields.io/badge/ROLE-AUTONOMOUS-7928CA?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Autonomous" /></a>
+          &nbsp;
+          <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter"><img src="https://img.shields.io/badge/DISCOVERY-AST_PARSER-38BDF8?style=for-the-badge&logo=typescript&logoColor=white" alt="AST" /></a>
         </p>
-        <details>
-          <summary><b>📐 View Architectural Highlights</b></summary>
-          <ul>
-            <li><b>AST Analysis:</b> Deep parsing of JavaScript source bundles to discover hidden API endpoints.</li>
-            <li><b>Automated PoC Generation:</b> Produces verified, reproducible reproduction scripts for bug triage.</li>
-          </ul>
-        </details>
+        <p>
+          <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter"><b>[ ⚡ Explore Bounty Engine ]</b></a> &nbsp;&bull;&nbsp;
+          <a href="https://github.com/singhalmridul/ai-bug-bounty-hunter"><b>[ 🔬 View AST Parser ]</b></a>
+        </p>
       </div>
     </td>
   </tr>
@@ -208,17 +292,21 @@ interface SystemsEngineer {
 
 ---
 
-### 🛠️ Technology Stack & Core Competencies
+<!-- ================================================================= -->
+<!--               SECTION 5: THE NEURAL TECH MATRIX                  -->
+<!-- ================================================================= -->
+
+## 🧬 Neural Tech Stack &amp; Weapons of Choice
 
 <div align="center">
 
-| Domain | Technologies &amp; Tools |
+| Architecture Tier | Weaponry &amp; Core Tooling |
 | :--- | :--- |
-| **Systems &amp; Core** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,cpp&theme=dark" alt="Systems Languages" /></a> |
-| **Frontend &amp; 3D Web** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,react,threejs,tailwind,html,css&theme=dark" alt="Frontend & 3D" /></a> |
-| **Backend &amp; Distributed** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,graphql&theme=dark" alt="Backend & Distributed" /></a> |
-| **Databases &amp; Caching** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark" alt="Databases" /></a> |
-| **Cloud, DevOps &amp; Observability** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,git,githubactions,linux&theme=dark" alt="DevOps & Observability" /></a> |
+| **🦀 Systems &amp; Low-Latency** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,go,cpp,ts,py,bash&theme=dark" alt="Systems" /></a> |
+| **🌐 Spatial &amp; 3D Frontend** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,react,threejs,tailwind,html,css&theme=dark" alt="Frontend" /></a> |
+| **⚡ Backend &amp; Event Streams** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,graphql&theme=dark" alt="Backend" /></a> |
+| **💾 Distributed Storage &amp; Cache** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark" alt="Databases" /></a> |
+| **☁️ Cloud, DevOps &amp; Observability** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,git,githubactions,linux&theme=dark" alt="Cloud" /></a> |
 
 </div>
 
@@ -226,17 +314,21 @@ interface SystemsEngineer {
 
 ---
 
-### 🎮 Contribution Grid & Live Activity
+<!-- ================================================================= -->
+<!--            SECTION 6: CONTRIBUTION SNAKE & ANALYTICS              -->
+<!-- ================================================================= -->
+
+## 🎮 Contribution Matrix &amp; Stack Telemetry
 
 <div align="center">
-  <!-- Dynamic Contribution Snake Game -->
-  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Game" width="100%" />
+  <!-- Glowing Animated Contribution Snake -->
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/github-contribution-grid-snake.svg" alt="Contribution Grid Snake" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- Public Performance Metrics & Codebase Stack -->
+  <!-- Rock-solid Self-Contained Stats Card (No Rate Limits, No External Outages) -->
   <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/github-stats.svg" alt="Public Performance Metrics &amp; Codebase Distribution" width="100%" />
 </div>
 
@@ -244,7 +336,9 @@ interface SystemsEngineer {
 
 ---
 
-### 🎵 Dev Flow State & Audio Telemetry
+<!-- ================================================================= -->
+<!--              SECTION 7: DEV FLOW STATE AUDIO RADAR                -->
+<!-- ================================================================= -->
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/soundwave-player.svg" alt="Cyberpunk Dev Flow State Audio Visualizer" width="100%" />
@@ -254,35 +348,40 @@ interface SystemsEngineer {
 
 ---
 
-### 🤝 Connect & Collaborate
+<!-- ================================================================= -->
+<!--             SECTION 8: SECURE TRANSMISSION FREQUENCIES           -->
+<!-- ================================================================= -->
+
+## 📡 Open Transmission Frequencies
 
 <div align="center">
-  <p><b>Always interested in distributed systems challenges, autonomous AI agents, and high-performance engineering.</b></p>
+  <p><b>Got a complex distributed systems challenge, an AI agent experiment, or a high-throughput problem?</b></p>
+  <br/>
 
   <a href="https://www.linkedin.com/in/mridulsinghal/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="https://mridulsinghal.com">
-    <img src="https://img.shields.io/badge/Portfolio-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/3D_Portfolio-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://x.com/MridulSinghal16">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
   &nbsp;
   <a href="mailto:mridulsinghal11@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Encrypted_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/singhalmridul">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub_Origin-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </div>
 
 <br/>
 
-<!-- Animated Cyberpunk Footer -->
+<!-- Animated Cyberpunk Footer Waves -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/footer-banner.svg" alt="Footer Banner" width="100%" />
 </div>

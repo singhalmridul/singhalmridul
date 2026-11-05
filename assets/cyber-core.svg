@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="cyberVoid" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0e172a" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#080c14" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#7928CA" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#FF0080" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glowing Linear Gradients -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="neonMagenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0080" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+
+    <linearGradient id="cyberLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FF0080" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Isometric Grid Pattern -->
+    <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="30" cy="17.32" r="1" fill="#00F2FE" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Filters for Bloom & Glow -->
+    <filter id="hyperGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatCore {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-16px); }
+    }
+    @keyframes rotateRingClockwise {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes rotateRingCounter {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes laserSweep {
+      0% { transform: translateY(-40px); opacity: 0; }
+      15% { opacity: 0.8; }
+      85% { opacity: 0.8; }
+      100% { transform: translateY(460px); opacity: 0; }
+    }
+    @keyframes pulseEnergy {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.8; }
+      50% { stroke-dashoffset: 80; opacity: 0.3; }
+    }
+    @keyframes blinkLed {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.2; transform: scale(0.8); }
+    }
+    @keyframes shimmerText {
+      0% { stop-color: #00F2FE; }
+      50% { stop-color: #FF0080; }
+      100% { stop-color: #00F2FE; }
+    }
+
+    .core-levitate {
+      animation: floatCore 5s ease-in-out infinite;
+    }
+    .ring-cw {
+      animation: rotateRingClockwise 20s linear infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .ring-ccw {
+      animation: rotateRingCounter 14s linear infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .laser-beam {
+      animation: laserSweep 5s ease-in-out infinite;
+    }
+    .energy-conduit {
+      stroke-dasharray: 8 6;
+      animation: pulseEnergy 2.5s linear infinite;
+    }
+    .status-blink {
+      animation: blinkLed 1.6s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .cyber-font-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      letter-spacing: 4px;
+    }
+    .cyber-font-mono {
+      font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, monospace;
+    }
+  </style>
+
+  <!-- Deep Sci-Fi Backdrop -->
+  <rect width="1100" height="420" rx="20" fill="url(#cyberVoid)" />
+  <rect width="1100" height="420" rx="20" fill="url(#isoGrid)" />
+
+  <!-- Outer Glass Frame -->
+  <rect x="2" y="2" width="1096" height="416" rx="19" fill="none" stroke="#1f293d" stroke-width="1.5" />
+
+  <!-- Corner Tech Accents -->
+  <g stroke="#00F2FE" stroke-width="2.5" fill="none" opacity="0.8">
+    <path d="M 20 50 L 20 20 L 50 20" />
+    <path d="M 1050 20 L 1080 20 L 1080 50" />
+    <path d="M 20 370 L 20 400 L 50 400" />
+    <path d="M 1050 400 L 1080 400 L 1080 370" />
+  </g>
+
+  <!-- ==================== LEFT SIDE: HERO CONSOLE ==================== -->
+  <g transform="translate(60, 50)">
+    <!-- Terminal Breadcrumb Pill -->
+    <g transform="translate(0, 0)">
+      <rect width="380" height="32" rx="16" fill="#0d1527" stroke="#1e2d4d" stroke-width="1.2" />
+      <circle cx="20" cy="16" r="4.5" fill="#10B981" class="status-blink" filter="url(#hyperGlow)" />
+      <text x="36" y="21" fill="#94A3B8" font-size="11" font-weight="600" class="cyber-font-mono">KERNEL // </text>
+      <text x="98" y="21" fill="#00F2FE" font-size="11" font-weight="700" class="cyber-font-mono">CORTEX-SPATIAL-OS v2.4</text>
+      <text x="290" y="21" fill="#10B981" font-size="10" font-weight="700" class="cyber-font-mono">[ONLINE]</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 85)">
+      <text x="0" y="0" fill="#00F2FE" font-size="52" class="cyber-font-title" filter="url(#hyperGlow)">MRIDUL SINGHAL</text>
+      <text x="0" y="0" fill="#FFFFFF" font-size="52" class="cyber-font-title" opacity="0.95">MRIDUL SINGHAL</text>
+    </g>
+
+    <!-- Subtitle Role -->
+    <g transform="translate(2, 125)">
+      <text x="0" y="0" fill="#E2E8F0" font-size="20" font-weight="700" class="cyber-font-mono">
+        <tspan fill="#38BDF8">&gt;</tspan> Full-Stack Engineer <tspan fill="#FF0080">&amp;</tspan> Systems Architect
+      </text>
+    </g>
+
+    <!-- Core Philosophy / Interactive Hook -->
+    <g transform="translate(2, 160)">
+      <text x="0" y="0" fill="#94A3B8" font-size="13.5" class="cyber-font-mono">
+        Specializing in <tspan fill="#00F2FE" font-weight="700">sub-50ms Rust runtimes</tspan>, <tspan fill="#A78BFA" font-weight="700">50M+ event pipelines</tspan>,
+      </text>
+      <text x="0" y="22" fill="#94A3B8" font-size="13.5" class="cyber-font-mono">
+        and <tspan fill="#FF0080" font-weight="700">autonomous multi-agent AI security swarms</tspan>.
+      </text>
+    </g>
+
+    <!-- Interactive Exploration Buttons (Rendered as Hologram Pills) -->
+    <g transform="translate(0, 225)">
+      <!-- Button 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="38" rx="10" fill="#0c1f38" stroke="#00F2FE" stroke-width="1.2" />
+        <text x="20" y="24" fill="#00F2FE" font-size="12" font-weight="700" class="cyber-font-mono">⚡ EXPLORE SYSTEMS</text>
+      </g>
+      <!-- Button 2 -->
+      <g transform="translate(195, 0)">
+        <rect width="180" height="38" rx="10" fill="#1f1035" stroke="#A78BFA" stroke-width="1.2" />
+        <text x="20" y="24" fill="#C084FC" font-size="12" font-weight="700" class="cyber-font-mono">🛡️ INSPECT AGENTS</text>
+      </g>
+    </g>
+
+    <!-- Telemetry Coordinates -->
+    <g transform="translate(2, 310)">
+      <text x="0" y="0" fill="#475569" font-size="11" class="cyber-font-mono">
+        LOC: NEW DELHI, INDIA [28.6139° N, 77.2090° E] • ENCRYPTION: SHA-256
+      </text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT SIDE: ISOMETRIC 3D HOLOGRAPHIC CORE ==================== -->
+  <g transform="translate(820, 210)" class="core-levitate">
+    <!-- Center Ambient Glow -->
+    <circle cx="0" cy="0" r="140" fill="url(#coreGlow)" />
+
+    <!-- Orbital Holographic Targeting Rings -->
+    <!-- Outer Ring -->
+    <ellipse cx="0" cy="0" rx="140" ry="60" fill="none" stroke="#1e293b" stroke-width="2" />
+    <ellipse cx="0" cy="0" rx="140" ry="60" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-dasharray="30 70 40 60" class="ring-cw" filter="url(#hyperGlow)" />
+
+    <!-- Middle Ring -->
+    <ellipse cx="0" cy="0" rx="105" ry="45" fill="none" stroke="#7928CA" stroke-width="2" stroke-dasharray="20 40" class="ring-ccw" />
+
+    <!-- Inner Core Ring -->
+    <ellipse cx="0" cy="0" rx="70" ry="30" fill="none" stroke="#FF0080" stroke-width="1.8" stroke-dasharray="15 30" class="ring-cw" />
+
+    <!-- Energy Bus Conduits (Pulsing Lines in Isometric Perspective) -->
+    <line x1="-130" y1="-50" x2="-60" y2="-20" stroke="#00F2FE" stroke-width="2" class="energy-conduit" />
+    <line x1="130" y1="50" x2="60" y2="20" stroke="#FF0080" stroke-width="2" class="energy-conduit" />
+    <line x1="130" y1="-50" x2="60" y2="-20" stroke="#7928CA" stroke-width="2" class="energy-conduit" />
+    <line x1="-130" y1="50" x2="-60" y2="20" stroke="#10B981" stroke-width="2" class="energy-conduit" />
+
+    <!-- 3D ISOMETRIC FLOATING PROCESSOR CUBE -->
+    <g transform="translate(0, 0)">
+      <!-- Top Face of Cube -->
+      <polygon points="0,-45 48,-20 0,5 -48,-20" fill="#0f172a" stroke="#00F2FE" stroke-width="2" filter="url(#hyperGlow)" />
+      <!-- Left Face of Cube -->
+      <polygon points="-48,-20 0,5 0,55 -48,30" fill="#080e1a" stroke="#0284c7" stroke-width="1.8" />
+      <!-- Right Face of Cube -->
+      <polygon points="0,5 48,-20 48,30 0,55" fill="#050a14" stroke="#7928CA" stroke-width="1.8" />
+
+      <!-- Glowing Core Reactor Center -->
+      <circle cx="0" cy="-7" r="16" fill="#00F2FE" class="status-blink" filter="url(#hyperGlow)" />
+      <circle cx="0" cy="-7" r="8" fill="#FFFFFF" />
+
+      <!-- Micro Holographic Labels -->
+      <text x="0" y="-30" text-anchor="middle" fill="#38BDF8" font-size="8" font-weight="800" class="cyber-font-mono">CORTEX-X1</text>
+      <text x="-24" y="25" text-anchor="middle" fill="#A78BFA" font-size="7" font-weight="700" class="cyber-font-mono" transform="rotate(30 -24 25)">50M+ EVT</text>
+      <text x="24" y="25" text-anchor="middle" fill="#F472B6" font-size="7" font-weight="700" class="cyber-font-mono" transform="rotate(-30 24 25)">&lt;50MS RUST</text>
+    </g>
+
+    <!-- Floating Holographic Data Particles -->
+    <circle cx="-90" cy="-35" r="3" fill="#00F2FE" class="status-blink" />
+    <circle cx="95" cy="40" r="3" fill="#FF0080" class="status-blink" />
+    <circle cx="65" cy="-45" r="2.5" fill="#10B981" class="status-blink" />
+    <circle cx="-70" cy="50" r="2.5" fill="#C084FC" class="status-blink" />
+
+    <!-- Core Telemetry Footer -->
+    <text x="0" y="90" text-anchor="middle" fill="#64748B" font-size="10" font-weight="700" class="cyber-font-mono" letter-spacing="2">
+      NEURAL KERNEL: ACTIVE
+    </text>
+  </g>
+
+  <!-- Horizontal Laser Scanline Beam -->
+  <rect x="0" y="0" width="1100" height="2" fill="url(#cyberLaser)" class="laser-beam" />
+</svg>
