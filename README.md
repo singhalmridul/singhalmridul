@@ -6,7 +6,7 @@
 <div align="center">
   <!-- Motion Graphics Hero Banner -->
   <a href="https://github.com/singhalmridul">
-    <img src="./assets/hero-banner.svg" alt="Mridul Singhal - Full-Stack Engineer &amp; Systems Architect" width="100%" />
+    <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/hero-banner.svg" alt="Mridul Singhal - Full-Stack Engineer &amp; Systems Architect" width="100%" />
   </a>
 
   <br/><br/>
@@ -40,7 +40,7 @@
   <br/>
 
   <!-- Live Telemetry & Architecture HUD -->
-  <img src="./assets/telemetry-hud.svg" alt="System Telemetry &amp; Performance Metrics HUD" width="100%" />
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/telemetry-hud.svg" alt="System Telemetry &amp; Performance Metrics HUD" width="100%" />
 
 </div>
 
@@ -110,7 +110,7 @@ interface SystemsEngineer {
 
 <div align="center">
   <p><i>Live Data Wireframe: From Client Edge through Rust Runtimes to AI Defense Swarms &amp; Observability</i></p>
-  <img src="./assets/system-architecture.svg" alt="Distributed System Architecture Flowchart" width="100%" />
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/system-architecture.svg" alt="Distributed System Architecture Flowchart" width="100%" />
 </div>
 
 <br/>
@@ -230,7 +230,7 @@ interface SystemsEngineer {
 
 <div align="center">
   <!-- Dynamic Contribution Snake Game -->
-  <img src="./assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Game" width="100%" />
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Game" width="100%" />
 </div>
 
 <br/>
@@ -261,7 +261,7 @@ interface SystemsEngineer {
 ### 🎵 Dev Flow State & Audio Telemetry
 
 <div align="center">
-  <img src="./assets/soundwave-player.svg" alt="Cyberpunk Dev Flow State Audio Visualizer" width="100%" />
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/soundwave-player.svg" alt="Cyberpunk Dev Flow State Audio Visualizer" width="100%" />
 </div>
 
 <br/>
@@ -298,5 +298,5 @@ interface SystemsEngineer {
 
 <!-- Animated Cyberpunk Footer -->
 <div align="center">
-  <img src="./assets/footer-banner.svg" alt="Footer Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/singhalmridul/singhalmridul/main/assets/footer-banner.svg" alt="Footer Banner" width="100%" />
 </div>
